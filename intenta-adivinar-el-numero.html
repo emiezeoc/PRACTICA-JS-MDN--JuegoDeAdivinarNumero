@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Juego de adivinar el numero</title>
+
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+
+  <body>
+    <h1>Juego de adivinar el numero</h1>
+
+    <p>Seleccionare un numero entre el 1 y el 100. Intenta adivinarlo en 10 turnos o menos. Te dare pistas diciendote si el numero es mas alto o mas bajo</p>
+
+    <form>
+      <div id="ingreso">
+        <label for="inputIntento">Ingresa tu intento </label>
+        <input type="number" min="1" max="100" id="inputIntento">
+        <button id="enviar">Enviar</button>
+      </div>  
+      
+      <div id="resultados">
+        <p id="intentos"></p>
+        <p id="ultimo-resultado"></p>
+        <p class="alto-o-bajo"></p>
+      </div>
+    </form>
+
+    <script type="text/javascript" src="adivinador.js"></script>
+  </body>
+</html>
