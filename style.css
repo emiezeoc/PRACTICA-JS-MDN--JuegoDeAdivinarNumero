@@ -12,9 +12,4 @@ html {
   .ingreso input[type="number"] {
     width: 200px;
   }
-
-  .ultimo-resultado {
-    color: white;
-    padding: 3px;
-  }
   
