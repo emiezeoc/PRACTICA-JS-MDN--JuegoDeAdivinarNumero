@@ -1,15 +1,68 @@
 html {
-    font-family: sans-serif;
-  }
+  font-family: sans-serif;
+}
 
-  body {
-    width: 50%;
-    max-width: 800px;
-    min-width: 480px;
-    margin: 0 auto;
-  }
-  
-  .ingreso input[type="number"] {
-    width: 200px;
-  }
-  
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 200px;
+  padding: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.oculto {
+  display: none;
+}
+
+#intentos {
+  margin-bottom: 10px;
+}
+
+#alto-o-bajo {
+  font-weight: bold;
+}
+
+#resultado {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#resetear {
+  margin-top: 20px;
+  background-color: #f44336;
+}
